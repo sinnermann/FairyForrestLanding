@@ -8,41 +8,48 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <header class="main-header">
-      <div class="layers">
-        <div class="layers__header">
-          <div class="layer__caption">Welcome to Parallax</div>
-          <div class="layer__title">Fairy Forest</div>
-        </div>
-        <div
-          class="layer layers__base"
-          style="background-image: url(images/layer-base.png)"
-        ></div>
-        <div
-          class="layer layers__middle"
-          style="background-image: url(images/layer-middle.png)"
-        ></div>
-        <div
-          class="layer layers__front"
-          style="background-image: url(images/layer-front.png)"
-        ></div>
+    <div class="wrapper">
+      <div class="content">
+        <header class="main-header">
+          <div class="layers">
+            <div class="layers__header">
+              <div class="layer__caption">Welcome to Parallax</div>
+              <div class="layer__title">Fairy Forest</div>
+            </div>
+            <div
+              class="layer layers__base"
+              style="background-image: url(images/layer-base.png)"
+            ></div>
+            <div
+              class="layer layers__middle"
+              style="background-image: url(images/layer-middle.png)"
+            ></div>
+            <div
+              class="layer layers__front"
+              style="background-image: url(images/layer-front.png)"
+            ></div>
+          </div>
+        </header>
+        <article
+          class="main-article"
+          style="background-image: url(images/dungeon.jpg)"
+        >
+          <div class="main-article__content">
+            <h2 class="main-article__header">To be continued</h2>
+            <p class="main-article__paragraph">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui
+              consequatur minus minima? Iure hic eligendi sunt esse amet culpa
+              excepturi nam a pariatur dolore nisi quaerat placeat, nostrum
+              perspiciatis aperiam explicabo similique.
+            </p>
+          </div>
+          <div class="copy">© WebDesign by Elmar A.</div>
+        </article>
+        <script src="libs/gsap/gsap.min.js" defer></script>
+        <script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+        <script src="libs/gsap/ScrollSmoother.min.js" defer></script>
+        <script src="js/app.js" defer></script>
       </div>
-    </header>
-    <article
-      class="main-article"
-      style="background-image: url(images/dungeon.jpg)"
-    >
-      <div class="main-article__content">
-        <h2 class="main-article__header">To be continued</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui
-          consequatur minus minima? Iure hic eligendi sunt esse amet culpa
-          excepturi nam a pariatur dolore nisi quaerat placeat, nostrum
-          perspiciatis aperiam explicabo similique.
-        </p>
-      </div>
-      <div class="copy">© WebDesign by Elmar A.</div>
-    </article>
-    <script src="js/app.js"></script>
+    </div>
   </body>
 </html>
